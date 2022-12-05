@@ -18,4 +18,9 @@ public class productcontroller {
         return "Add the product ";
 
     }
+    @PostMapping("/search")
+    public String Productsearch(){
+        return "Search the product ";
+
+    }
 }
